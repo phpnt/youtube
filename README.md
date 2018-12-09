@@ -50,7 +50,7 @@ composer require phpnt/youtube
 // Подключение виджета
 use phpnt\youtube\YouTubeWidget;
 // Подключение компонента
-/* @var $youTubeData YouTubeData */
+/* @var $youTubeData \phpnt\youtube\components\YouTubeData */
 $youTubeData = Yii::$app->youTubeData;
 ```
 ```php
