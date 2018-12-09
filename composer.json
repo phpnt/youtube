@@ -1,0 +1,28 @@
+{
+    "name": "phpnt/youtube",
+    "description": "Yii2 YouTube Widget",
+    "keywords": ["yii2", "phpnt", "youtube", "yii2 youtube"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/youtube"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1", 
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\youtube\\": ""
+        }
+    }
+}
