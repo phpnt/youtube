@@ -65,6 +65,8 @@ class YouTubeData extends Object
             $video_id = str_replace('watch?v=', '', $video_id);
         }
 
+        $video_id = trim($video_id);
+        
         $json_result = file_get_contents ("https://www.googleapis.com/youtube/v3/videos?part=$part&id=$video_id&key=$this->key");
         $result = Json::decode($json_result);
 
